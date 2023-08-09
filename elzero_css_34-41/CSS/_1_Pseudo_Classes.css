@@ -1,0 +1,41 @@
+.one {
+    background-color: red;
+    color: white;
+}
+.two {
+    background-color: #EEE;
+    width: 100px;
+    height: 100px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+
+/*Pseudo Classes  " : " */
+/*
+    :hover   >>  وضع الماوس عليه دون الضغط
+    :visited >> زيارة اللينك ... الضغط عليه 
+    :empty   >> اي عنصر فارغ 
+    :checked >> خاص بصندوق ال[] او ()د
+    :focus   >> يشبه الزيارة , ولكنه خاص الكتابة !!!د
+*/
+
+
+a:hover {
+    color: red;
+}
+a:visited {
+    color: blue;
+}
+:empty {
+    border: 2px solid red;
+}
+.ch:checked + label{
+    /*display: none;*/
+    color: brown;
+}
+.in:focus {
+    border-color: rgb(0, 21, 255);
+    outline: none
+}

@@ -1,0 +1,62 @@
+/*
+    Float
+    Clear
+*/
+
+.parent{
+    background-color: red;
+    padding: 10px;
+
+    overflow: hidden;/*very very important , but there are big problem => سهم*/
+}
+
+.parent div{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    text-align: center;
+    background-color: #eee;
+
+    /* display:inline-block ; */
+    width: 25%;
+    float: left;
+
+    /*
+    width: 23.75%;
+    margin-left: 1%;
+    */
+    margin-left: 1%;
+    width: calc(95% / 4);
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/*
+    Context Width Is: 100%
+    5 Spaces 1% * 5 => 5% From Content Width
+    95% Available Space
+    4 Element The Width Is: 95% / 4 => 23.75%
+    
+
+
+    if :
+    margin-left: 10px;
+    & we have 5 Spaces =====> 10px * 5 Spaces = 50px From Content Width
+    From Content Width = 100%
+
+    100% - 50px ====> use calc((100% - 50px)/5)
+    Element The Width Is: calc((100% - 50px)/5)
+
+*/
+
+
+
+
+
+.opacity{
+    background-color: rgb(27, 27, 227);
+    opacity: 0.5;/*في حالة المودم modem*/
+}

@@ -1,0 +1,56 @@
+/* External Style */
+/*
+ctlr+c , ctlr+k
+*/
+
+
+div {
+    background-color: red; /* Color Name */
+    background-color: rgb(0 0 0 / 50%); /* Red, Green, Blue, Alpha Channel */
+    background-color: #aa6d6d; /* Color Hex Code */
+    background-image: url("/elzero_css_1-16/img/pink_1.png") ;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: left top;
+    background-size:100% 40%;
+    
+}
+
+
+
+
+
+/*       background       */
+/*
+1) background-color :
+    a)background-color: red; >>>>>>>>>>>>>>> Color Name
+    b)background-color: rgb(29, 63, 157); >> Red Green Blue Alpha Channel
+    c)background-color: #20ca2c; >>>>>>>>>>> Color Hex Code
+
+2) background-image: url("");
+3) background-repeat: >>> defult value is (no-repeat)
+    a)repeat;
+    b)repeat-x
+    c)repeat-y
+    d)repeat-x
+    e)inherit
+    f)initial
+
+4) background-attachment: >>> defult value is (scroll)
+    a)fixed >> الصورة بتتحرك معك  
+    
+5) background-position: مكان الصورة 
+    a)background-position-x: left ,OR right ,OR center ;
+    b)background-position-y: top ,OR bottom ,OR center ;
+    c)background-position:  x y >>>>> left top
+    d)background-position: 90px 65px;
+
+6) background-size: (حجم الصورة)  >>> defult value is (auto)
+    a)contain  >>>>> تملئ المحتوى و (تظهر كاملة) في حالة تصغير الشاشة
+    b)cover >>>> تملئ المحتوى و (لكن لا تظهر) كاملة في حالة تصغير الشاشة  
+    c)200px 488px >>> لتحديد حجم الصورة
+    d)50% 50%
+
+
+
+*/

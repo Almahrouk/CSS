@@ -1,0 +1,9 @@
+input {
+    caret-color: red;
+  
+}
+
+a {
+    pointer-events: none;
+
+}

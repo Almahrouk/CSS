@@ -1,0 +1,42 @@
+.one, .two, .three, .four{ /*<!--    Grouping    -->*/
+    padding: 10px;
+    border-bottom: solid 2px;
+    margin: 10px 0px;
+    background-color: #eee;
+}
+
+.one{
+    border-bottom-color: red ;
+    color: red;
+}
+
+.two{
+    border-bottom-color:  green ;
+    color: green;
+}
+
+.three{
+    border-bottom-color:  gold ;
+    color: gold;
+}
+
+.four{
+    border-bottom-color:  blue ;
+    color: blue;
+    overflow:visible;
+}
+
+/* <!--    Nesting     --> */
+/*
+div p .one .fr div .yy
+*/
+
+
+/* <!--    Overflow     --> */
+/* 
+Overflow: by deff >>> visible 
+    1)auto
+    2)scroll
+*/
+
+

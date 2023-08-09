@@ -1,0 +1,103 @@
+/*   Text   */
+/*   
+    color
+    background-color
+
+
+    Text Shadow
+        Syntax => text-shadow: H-Shadow V-Shadow Blur Color
+*/
+
+
+div {
+    background-color: #f9f9f9;
+    color: rebeccapurple;
+    text-shadow: 0 0 0 red;
+  }
+
+
+
+/* Text Alignment */
+/* 
+  Alignment
+  Direction
+  Vertical Alignment
+*/
+.Alignment{
+    background-color: #f9f9f9;
+    text-align: center;
+    direction: rtl;/*right to left => for arabic lang*/
+    /*vertical-align: middle;   => if there are img & text*/   
+}
+
+
+
+/*Text Decoration*/
+/*
+    1)text-decoration: line-through;  => line through in the text
+    2)text-decoration: underline;     => line down of the text
+    3)text-decoration: overline;      => line up of the text
+    4)text-decoration: none;          => delete line from the text
+*/
+
+.Decoration{
+    background-color: #f9f9f9;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: none;
+
+}
+
+.Google_link{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*Text Transform*/
+/*
+    1)capitalize => First letter form each world become capital letter
+    2)uppercase  => Each letter form each world become capital letter
+    3)lowercase  => Each letter form each world become small letter
+*/
+
+
+.Transform{
+    background-color: white;
+    text-transform:uppercase;
+}
+
+
+
+
+
+/**/
+/*Letter Spacing*/
+
+.Letter_Spacing{
+    background-color: #f9f9f9;
+    letter-spacing: 5px;
+}
+
+.Text_Indent{
+    background-color: #f9f9f9;
+    text-indent: 100px; /*عمل فراغات بداية السطر*/
+    line-height: 200%;  /*المسافة بين سطرين من اعلى و اسفل*/
+    word-spacing: 5px;  /*المسافة بين الكلمات*/
+    white-space: none; /*سطر جديد عند انتهاء المجال*/
+    white-space: nowrap; /*اكمال السطر حتى اخر كلمة و زيادة عرض الصفحة*/
+    width: auto;
+    /*word-break: break-word;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/ /*وضع 3 نقاط في حالة كان الكلام اكبر من مساحة النص*/
+}
+

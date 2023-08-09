@@ -1,0 +1,52 @@
+/*      padding     */
+/*الهوامش الداخلية*/
+
+/*      margin      */
+/*الهوامش الخارجية*/
+
+/*      border      */
+      /*الاطار*/
+
+div {
+    /*Top Right Bottom Left */
+    background: rgb(186, 104, 104);
+    padding-bottom: 3px;
+    padding-left: 10px;
+    margin: auto;
+    width: 80%;
+    /* height: 4%; */
+    border-left: 10px red solid;
+  }
+
+/*  padding :
+a)  padding-bottom: 70%; 
+b)  padding-top: 10px;
+c)  padding-right: 10px;
+d)  padding-left: 10px;
+
+Ex:
+
+    Top Right Bottom Left 
+    10px 10px 10px 10px 
+    padding: 10px; 
+  
+    Top Right Bottom Left 
+    10px 20px 10px 20px 
+    padding: 10px 20px; 
+  
+    Top Right Bottom Left 
+    10px 20px 15px 20px 
+    padding: 10px 20px 15px; 
+
+*/
+
+
+/*      margin
+a)  margin-bottom: 70%; 
+b)  margin-top: 10px;
+c)  margin-right: 10px;
+d)  margin-left: 10px;
+
+
+
+*/
